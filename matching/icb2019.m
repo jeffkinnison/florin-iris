@@ -27,13 +27,9 @@ generateIrisCodes
 disp(['Done.';'     '])
 
 disp('Generating genuine scores:')
-tic
 generateGenuineScores
-toc
 disp(['Done.';'     '])
 
 disp('Generating impostor scores:')
-tic
 generateImpostorScores
-toc
 disp(['Done.';'     '])
