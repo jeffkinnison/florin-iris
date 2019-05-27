@@ -24,12 +24,12 @@ To run this code, the following dependencies must be met.
 
 ### SegNet
 
-- MATLAB r2018b
+- MATLAB r2018b (or newer)
 
 ## Preparation
 
 1. [Download](http://svnext.it-sudparis.eu/svnview2-eph/ref_syst/Iris_Osiris_v4.1/ "OSIRIS v4.1") and [install](http://svnext.it-sudparis.eu/svnview2-eph/ref_syst/Iris_Osiris_v4.1/doc/ "OSIRIS v4.1 Documentation") OSIRIS v4.1.
-2. [Download](https://www.mathworks.com/products/matlab.html "MATLAB Home Page") and install MATLAB r2018b.
+2. [Download](https://www.mathworks.com/products/matlab.html "MATLAB Home Page") and install MATLAB.
 3. [Download]() and install Python 3.4+. To reproduce this work, install Python 3.6.4 compiled with GCC 7.1.0.
 4. Request a copy of the [Warsaw-BioBase-Pupil-Dynamics-v3 dataset](http://zbum.ia.pw.edu.pl/EN/node/46).
 
