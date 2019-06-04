@@ -79,7 +79,7 @@ def main():
     sel[2] = 0
 
     subject = os.path.basename(args.input)
-
+    print(subject)
     params = {}
 
     if args.recover_parameters:
@@ -195,7 +195,7 @@ def main():
     if not os.path.isdir(outdir):
         os.makedirs(outdir)
     seg[seg.nonzero()] = 255
-    save_imgs(seg, outdir)
+    save_imgs(seg, outdir, prefix=subject)
 
     if args.save_iris:
         outdir = os.path.join(args.output, 'iris', subject)

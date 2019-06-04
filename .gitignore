@@ -1,1 +1,9 @@
 .DS_Store
+*.csv
+*.bmp
+*.png
+*.out
+__pycache__/
+*_config/
+*env/
+*_segmentation/

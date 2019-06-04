@@ -31,7 +31,13 @@ To run this code, the following dependencies must be met.
 1. [Download](http://svnext.it-sudparis.eu/svnview2-eph/ref_syst/Iris_Osiris_v4.1/ "OSIRIS v4.1") and [install](http://svnext.it-sudparis.eu/svnview2-eph/ref_syst/Iris_Osiris_v4.1/doc/ "OSIRIS v4.1 Documentation") OSIRIS v4.1. A local copy of OSIRIS is also included into this repository (`./matching/OSIRIS_v4.1`)
 2. [Download](https://www.mathworks.com/products/matlab.html "MATLAB Home Page") and install MATLAB.
 3. [Download]() and install Python 3.4+. To reproduce this work, install Python 3.6.4 compiled with GCC 7.1.0.
-4. Request a copy of the [Warsaw-BioBase-Pupil-Dynamics-v3 dataset](http://zbum.ia.pw.edu.pl/EN/node/46).
+4. Run the following code to set up a virtual enviroment for florin
+```bash
+python -m venv florin-env
+source florin-env/bin/activate
+pip install -r requirements.txt
+```
+5. Request a copy of the [Warsaw-BioBase-Pupil-Dynamics-v3 dataset](http://zbum.ia.pw.edu.pl/EN/node/46).
 
 ## Segmentation
 

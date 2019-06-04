@@ -6,7 +6,7 @@ function []=segnet(DIR_IN, DIR_OUT, CSV_NAME)
     %
     % Prerequisites: MATLAB 2017b or later with Neural Network Toolbox
    
-    load('/afs/crc.nd.edu/group/cvrl/scratch_12/jkinniso/segnet_files/SegNetWarm-noUBIRIS.mat')
+    load('SegNetWarm-noUBIRIS.mat')
 
     % DIR_IN = './';
     % DIR_OUT = './';

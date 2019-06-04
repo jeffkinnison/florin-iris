@@ -8,7 +8,7 @@ export CUDA_VISIBLE_DEVICES=3
 
 for subject_directory in $dataset/*; do
     subject="$(basename $subject_directory)"
-    out_directory=$base/segnet_seg/$subject
+    out_directory=segnet_segmentation/$subject
     mkdir -p $out_directory
     csv_file="${subject}_time.csv"
 

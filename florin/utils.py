@@ -128,12 +128,14 @@ def load_volume(path, start=None, stop=None, ext='', grayscale=True, channel=0):
     return vol
 
 
-def save_imgs(vol, path, start=0, stop=None, imtype='png'):
+def save_imgs(vol, path, start=0, stop=None, imtype='png', prefix=''):
     if not os.path.isdir(path):
         os.makedirs(path)
-    leading = 6
+    leading = 3
+    if prefix:
+        prefix= prefix + '_'
     for i in range(vol.shape[0]):
         n = str(i + start).zfill(leading)
-        f = ''.join([n, '.', imtype])
+        f = ''.join([prefix, n, '.', imtype])
         scipy.misc.imsave(os.path.join(path, f), vol[i], format=imtype)
 
