@@ -58,4 +58,4 @@ This script will attempt to install FLoRIN and its dependencies in a virtual env
 pip install florin
 ```
 
-This code is under active development, and we welcome any contributions form the community.
+This code is under active development, and we welcome any contributions from the community.
